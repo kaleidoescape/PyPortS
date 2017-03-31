@@ -1,7 +1,7 @@
 PyPortS
 =======
 
-A Python3 implementation of [Keshava and Pitler's (2006) ``RePortS''][https://pdfs.semanticscholar.org/2b4e/de57fbd0ccf243c1763da2f882130ee292d2.pdf] algorithm for unsupervised morpheme induction. 
+A Python3 implementation of [Keshava and Pitler's (2006) "RePortS"](https://pdfs.semanticscholar.org/2b4e/de57fbd0ccf243c1763da2f882130ee292d2.pdf) algorithm for unsupervised morpheme induction. 
 
 Running PyPortS
 ---------------
