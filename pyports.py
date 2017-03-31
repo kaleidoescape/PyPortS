@@ -519,7 +519,7 @@ def run_datasets():
 
     ru_ver = 'ru_3.0.0'
     ru_train1 = 'data/ru_syntagrus_train.txt'
-    ru_train2 = 'data/ru_lopatin_train.txt'
+    ru_train2 = 'data/ru_orthographic_train.txt'
     ru_test = 'data/ru_dev.txt'
     ru_gold = 'data/ru_gold.txt'
 
