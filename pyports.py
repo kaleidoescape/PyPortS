@@ -556,11 +556,11 @@ def parse_args():
     subparsers = parser.add_subparsers(dest='command') 
        
     parser_train = subparsers.add_parser('train',
-                        help='train a new model (search for the best thresholds)')
+                        help='train a new model (plus search for best thresholds)')
     parser_test = subparsers.add_parser('test',
-                        help='the version of the model to load')
+                        help='test an existing model')
     parser_standard = subparsers.add_parser('standard',
-                        help='the version of the model to load')
+                        help='reproduce original project (train on included data)')
  
     parser_test.add_argument('ver', 
                         help='the version of the model to load')
